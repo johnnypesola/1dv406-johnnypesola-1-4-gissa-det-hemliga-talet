@@ -33,7 +33,6 @@ namespace _1_4_gissa_det_hemliga_talet
         {
             if(IsValid)
             {
-                SecretNumber secretNumber;
                 int parsedGuessedNumber;
                 CustomValidator customValidator;
 
@@ -62,7 +61,7 @@ namespace _1_4_gissa_det_hemliga_talet
             this.StoredSecretNumberObj.Initialize();
 
             // Hide output
-            OutputPanel.Visible = false;
+            OutputPlaceHolder.Visible = false;
 
             // Reset text
             GuessHistory.Text = "";
@@ -129,7 +128,7 @@ namespace _1_4_gissa_det_hemliga_talet
                 GuessStatus.Text = "&#10007; Du har redan gissat på det här talet.";
             }
 
-            OutputPanel.Visible = true;
+            OutputPlaceHolder.Visible = true;
         }
     }
 }

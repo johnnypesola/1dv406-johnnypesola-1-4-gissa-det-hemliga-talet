@@ -85,13 +85,13 @@ namespace _1_4_gissa_det_hemliga_talet {
         protected global::System.Web.UI.WebControls.RangeValidator UserInputRangeValidator;
         
         /// <summary>
-        /// OutputPanel control.
+        /// OutputPlaceHolder control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel OutputPanel;
+        protected global::System.Web.UI.WebControls.PlaceHolder OutputPlaceHolder;
         
         /// <summary>
         /// GuessHistory control.
