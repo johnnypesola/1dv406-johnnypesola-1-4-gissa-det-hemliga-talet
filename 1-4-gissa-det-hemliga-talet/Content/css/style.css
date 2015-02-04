@@ -1,0 +1,88 @@
+﻿body {
+    background: #f6f6f6;
+    color: #666666;
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+input, textarea {
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+}
+
+input[type=submit] {
+    background: #EEEEEE;
+    padding: 5px 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+    input[type=submit]:hover {
+        background: #DDDDDD;
+    }
+
+input[type=text] {
+    background: #EEEEEE;
+    padding: 5px 10px;
+    margin: 10px;
+    text-align: right;
+    width: 20px;
+}
+
+.error-text {
+    color: #AA0000;
+}
+
+.error-message {
+    display: inline-block;
+    color: #AA0000;
+    margin: 5px;
+    padding: 5px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    border: 1px solid #DDDDDD;
+    width: 600px;
+}
+
+.success-message {
+    display: block;
+    color: #00AA00;
+    margin: 15px 5px;
+    padding: 5px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    border: 1px solid #DDDDDD;
+    width: 600px;
+}
+
+.align-right {
+    text-align: right !important;
+}
+
+    div#input {
+        float: left;
+    }
+
+    div#output {
+        float: left;
+        margin: 20px;
+    }
+        #output table {
+            border: 1px solid #CCCCCC;
+            border-spacing: 0;
+            width: 200px;
+        }
+
+        #output table th {
+            background: #666666;
+            color: #FFFFFF;
+            padding: 3px;
+        }
+
+        #output table td {
+            text-align: center;
+        }
+
+        #output table tr.odd {
+            background: #FFFFFF;
+        }
