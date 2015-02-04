@@ -94,13 +94,31 @@ namespace _1_4_gissa_det_hemliga_talet {
         protected global::System.Web.UI.WebControls.Panel OutputPanel;
         
         /// <summary>
-        /// OutputLiteral control.
+        /// GuessHistory control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal OutputLiteral;
+        protected global::System.Web.UI.WebControls.Label GuessHistory;
+        
+        /// <summary>
+        /// CurrentGuess control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label CurrentGuess;
+        
+        /// <summary>
+        /// GuessStatus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label GuessStatus;
         
         /// <summary>
         /// ResetButton control.

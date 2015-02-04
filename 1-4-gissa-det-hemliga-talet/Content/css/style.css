@@ -41,48 +41,27 @@ input[type=text] {
     background: #FFFFFF;
     border-radius: 3px;
     border: 1px solid #DDDDDD;
-    width: 600px;
 }
 
 .success-message {
-    display: block;
+    display: inline-block;
     color: #00AA00;
-    margin: 15px 5px;
+    margin: 5px;
     padding: 5px;
     background: #FFFFFF;
     border-radius: 3px;
     border: 1px solid #DDDDDD;
-    width: 600px;
 }
 
 .align-right {
     text-align: right !important;
 }
 
-    div#input {
-        float: left;
-    }
+.current-guess {
+    color: #444499;
+    background: #FFFFFF;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #DDDDDD;
+}
 
-    div#output {
-        float: left;
-        margin: 20px;
-    }
-        #output table {
-            border: 1px solid #CCCCCC;
-            border-spacing: 0;
-            width: 200px;
-        }
-
-        #output table th {
-            background: #666666;
-            color: #FFFFFF;
-            padding: 3px;
-        }
-
-        #output table td {
-            text-align: center;
-        }
-
-        #output table tr.odd {
-            background: #FFFFFF;
-        }

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="_1_4_gissa_det_hemliga_talet.Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="_1_4_gissa_det_hemliga_talet.Default" ViewStateMode="Disabled" %>
 
 <!DOCTYPE html>
 
@@ -22,9 +22,11 @@
             <asp:RangeValidator ID="UserInputRangeValidator" runat="server" ErrorMessage="Talet får vara lägst 1 och högst 100" ControlToValidate="UserInputTextBox" MaximumValue="100" MinimumValue="1" Display="None" Type="Integer" />
         </div>
         <asp:Panel ID="OutputPanel" runat="server" Visible="False">
-            <asp:Literal ID="OutputLiteral" runat="server"></asp:Literal>
+            <asp:Label ID="GuessHistory" runat="server" Text="" CssClass="guess-history"></asp:Label>
+            <asp:Label ID="CurrentGuess" runat="server" Text="" CssClass="current-guess"></asp:Label>
+            <asp:Label ID="GuessStatus" runat="server" Text="" CssClass="guess-status"></asp:Label>
         </asp:Panel>
-        <asp:Button ID="ResetButton" runat="server" Text="Slumpa nytt hemligt tal" />
+        <asp:Button ID="ResetButton" runat="server" Text="Slumpa nytt hemligt tal" Visible="False" OnClick="ResetButton_Click" CausesValidation="False" />
     </form>
 </body>
 </html>
